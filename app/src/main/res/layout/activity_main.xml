@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+
+    tools:context=".MainActivity">
+
+
+        <TextView
+            android:text="Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:hint="Enter First Name and Last Name"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:text="Do you have any long-term education goals?" />
+
+    <Switch
+        android:id="@+id/goalsSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="378dp"
+        android:layout_height="35dp"
+        android:gravity="start|top"
+        android:hint="Select" />
+
+    <TextView
+            android:id="@+id/yesNoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-4dp"
+        android:text="B.Tech passout year" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/year2022CheckBox"
+            android:layout_width="75dp"
+            android:layout_height="23dp"
+            android:text="2020" />
+
+        <CheckBox
+            android:id="@+id/year2020CheckBox"
+            android:layout_width="75dp"
+            android:layout_height="23dp"
+            android:text="2021" />
+
+        <CheckBox
+            android:id="@+id/year2023CheckBox"
+            android:layout_width="78dp"
+            android:layout_height="23dp"
+            android:text="2022" />
+
+        <CheckBox
+            android:id="@+id/year2021CheckBox"
+            android:layout_width="138dp"
+            android:layout_height="23dp"
+            android:text="2023" />
+
+
+
+
+</LinearLayout>
+
+    <TextView
+        android:text="How do you rate yourself?"
+        android:layout_width="match_parent"
+        android:layout_marginTop="3dp"
+        android:layout_height="wrap_content"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="How do you rate yourself 1 to 5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <SeekBar
+        android:id="@+id/scaleSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="5"/>
+
+    <TextView
+        android:text="Date of Birth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/dateOfBirthEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_calendar"
+        android:drawablePadding="8dp"
+        android:hint="click to select"
+        android:padding="8dp"
+        android:textColorHint="@color/gray" />
+
+    <TextView
+        android:text="Date and Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/dateAndTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_calendar"
+        android:drawablePadding="8dp"
+        android:hint="enter date and time"
+        android:padding="8dp"
+        android:textColorHint="@color/gray"/>
+
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+
+</LinearLayout>
+
